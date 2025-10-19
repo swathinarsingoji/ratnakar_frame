@@ -1,0 +1,86 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(120deg, #f5f2ff, #e8e5ff);
+  color: #2e2c38;
+  margin: 0;
+  padding: 20px;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.options {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
+.option-btn {
+  background: #ffffffcc;
+  border: 2px solid #6a4cff;
+  border-radius: 12px;
+  padding: 18px 22px;
+  width: 180px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #2e2c38;
+  box-shadow: 0 2px 10px rgba(106, 76, 255, 0.25);
+  transition: background-color 0.3s, box-shadow 0.3s, color 0.3s;
+}
+
+.option-btn span {
+  display: block;
+  font-weight: 400;
+  font-size: 0.85rem;
+  margin-top: 6px;
+  color: #555;
+}
+
+.option-btn:hover, .option-btn.selected {
+  background: #6a4cff;
+  color: white;
+  box-shadow: 0 8px 25px rgba(106, 76, 255, 0.6);
+}
+
+.hidden {
+  display: none;
+}
+
+/* Next Button Styling */
+.next-btn-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.next-btn {
+  background: #6a4cff;
+  color: white;
+  border: none;
+  padding: 16px 36px;
+  border-radius: 30px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 2px 12px rgba(106, 76, 255, 0.2);
+  transition: background 0.3s, transform 0.2s;
+}
+
+.next-btn:hover {
+  background: #5940d1;
+  transform: scale(1.06);
+}

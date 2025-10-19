@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>EduFlex | Choose Your Path</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Which academic branch best aligns with your long-term career aspirations?</h1>
+    <div class="options" id="branchOptions">
+      <button class="option-btn" data-branch="Applied Sciences">Applied Sciences<br><span>Engineering, Physics, or Computer Science.</span></button>
+      <button class="option-btn" data-branch="Creative Arts">Creative Arts<br><span>Graphic Design, Music Theory, or Film Production.</span></button>
+      <button class="option-btn" data-branch="Global Studies">Global Studies<br><span>Economics, History, or Foreign Languages.</span></button>
+    </div>
+
+    <h1 id="courseQuestion" class="hidden">Select a specific course in <span id="selectedBranch"></span>:</h1>
+    <div class="options hidden" id="courseOptions"></div>
+
+    <div class="next-btn-wrapper hidden" id="nextBtnWrapper">
+      <button id="nextBtn" class="next-btn">Next</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
